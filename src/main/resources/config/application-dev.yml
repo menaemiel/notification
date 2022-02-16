@@ -37,8 +37,10 @@ spring:
       indent-output: true
   data:
     mongodb:
-      uri: mongodb://localhost:27017
+      uri: mongodb://mongodb:27017
       database: notification
+      username: notification
+      password: notification
   mail:
     host: localhost
     port: 25
